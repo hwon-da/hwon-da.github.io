@@ -1,14 +1,15 @@
 ---
 layout: post
-title: 이것은 첫글이다. 블로그
+title: Post Tamplate
 excerpt_separator:  <!--more-->
 ---
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
+hwon-da 깃허브 주소 -> [hwon-da github](https://hwon-da.github.io/)
 
 theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 
-# Keep It Simple
+
+# 큰 제목
 
 In keeping with the original Hyde theme, Hydeout aims to keep the overall
 design lightweight and plugin-free. JavaScript is currently limited only
@@ -18,7 +19,8 @@ variables).
 Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
 the CSS degrades into a single column layout.
 
-## Customization
+
+## 중간 제목
 
 Hydeout replaces Hyde's class-based theming with the use
 of the following SASS variables:
@@ -27,6 +29,7 @@ of the following SASS variables:
 $sidebar-bg-color: #202020 !default;
 $sidebar-fg-color: white !default;
 $sidebar-sticky: true !default;
+
 $layout-reverse: false !default;
 $link-color: #268bd2 !default;
 ```
@@ -53,7 +56,8 @@ defining your own `_includes/custom-head.html` or insert tags at the end
 of the body (e.g. for custom JS) by defining your own
 `_includes/custom-foot.html`.
 
-### New Features
+
+### 작은 제목
 
 * Hydeout also adds a new tags page (accessible in the sidebar) and a new
   "category" layout for dedicated category pages.
