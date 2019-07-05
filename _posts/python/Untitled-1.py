@@ -1,7 +1,3 @@
-a = 1, 2, 3
-print(a)
+my_dict = {1:'Korea', 1:'Japan', 1:'China'}
 
-x, y, z = a
-print(x)
-print(y)
-print(z)
+print(my_dict[1])
