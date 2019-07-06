@@ -49,14 +49,7 @@ class K_Means:
                     print(np.sum((current_centroid-original_centroid)/original_centroid*100.0))
                     optimized = False
 
-            if optimized:
-                break
-
-    def predict(self,data):
-        distances = [np.linalg.norm(data-self.centroids[centroid]) for centroid in self.centroids]
-        classification = distances.index(min(distances))
-        return classification
-
+            if optimized: break
 
 clf = K_Means()
 clf.fit(X)
