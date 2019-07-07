@@ -1,10 +1,13 @@
-list_06 = [1, 2, 3]
-print(list_06 * 3)
+class Person:
+    def __init__(self, name, age):
+        print('객체 생성중')
+        self.name = name
+        self.age = age
 
-# 2. list 요소값 * 정수
-list_07 = [1, 'apple']
-print(list_07[0]*5)
-print(list_07[1]*2)
+    def add(self):
+        print('1년이 지나 {}살이 되었습니다.'.format(self.age+1))
 
-# 3. list * list
-print(list_06 * list_07)
+    
+
+alice = Person('ALICE', 19)
+alice.add()
