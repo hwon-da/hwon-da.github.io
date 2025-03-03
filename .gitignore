@@ -48,4 +48,5 @@ _config.dev.yml
 .vscode
 *.gem
 
-.dist
+# dist
+dist
