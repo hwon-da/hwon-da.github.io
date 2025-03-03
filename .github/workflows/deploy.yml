@@ -37,6 +37,9 @@ jobs:
         env:
           NODE_ENV: production
 
+      - name: Create .nojekyll file 🚫
+        run: touch ./dist/.nojekyll
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
